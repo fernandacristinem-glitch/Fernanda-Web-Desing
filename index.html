@@ -1,30 +1,60 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu Site</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fernanda Web Design</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <header>
-    <h1>Bem-vindo</h1>
-    <nav>
-        <a href="#">Início</a>
-        <a href="#">Sobre</a>
-        <a href="#">Contato</a>
-    </nav>
+  <div class="logo">Fernanda Web Design</div>
+
+  <nav>
+    <a href="#inicio">Início</a>
+    <a href="#servicos">Serviços</a>
+    <a href="#portfolio">Portfólio</a>
+    <a href="#contato">Contato</a>
+  </nav>
 </header>
 
-<section class="hero">
-    <h2>Seu próximo projeto começa aqui.</h2>
-    <p>Crie sites modernos e responsivos.</p>
-    <button id="btn">Saiba Mais</button>
+<section class="hero" id="inicio">
+  <h1>Transformando ideias em sites incríveis.</h1>
+
+  <p>
+    Desenvolvimento de sites modernos, rápidos, responsivos e profissionais
+    para empresas, empreendedores e negócios digitais.
+  </p>
+
+  <a href="#contato" class="btn">
+    Solicitar Orçamento
+  </a>
 </section>
 
-<footer>
-    <p>© 2026 Todos os direitos reservados.</p>
+<section id="servicos" class="cards">
+
+  <div class="card">
+    <h2>Landing Pages</h2>
+    <p>Páginas de alta conversão para vender produtos e serviços.</p>
+  </div>
+
+  <div class="card">
+    <h2>Sites Institucionais</h2>
+    <p>Projetos modernos para empresas e profissionais.</p>
+  </div>
+
+  <div class="card">
+    <h2>Lojas Virtuais</h2>
+    <p>Design profissional para vender online.</p>
+  </div>
+
+</section>
+
+<footer id="contato">
+  <h2>Fernanda Web Design</h2>
+  <p>Email: contato@fernandawebdesign.com</p>
+  <p>© 2026 Todos os direitos reservados.</p>
 </footer>
 
 <script src="script.js"></script>
